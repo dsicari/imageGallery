@@ -1,0 +1,43 @@
+body {
+    background:#fff;
+    font-family:Georgia;
+    font-size:12px;
+    margin-top:50px;
+} a {
+    color:#000000;
+} .logo {
+    color:white;
+} .container {
+    width:800px;
+    min-height:400px;
+    margin-left:auto;
+    margin-right:auto;
+    background:#fdfdfd;
+    border:1px solid #ccc;
+    padding:15px;
+    color:#000000;
+} .menu {
+    width:800px;
+    text-align:right;
+    margin-left:auto;
+    margin-right:auto;
+    padding:15px;
+} .footer {
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:15px;
+    color:#666666;
+} .header {
+    width:100%;
+} .main {
+    margin-top:10px;
+    width:100%;
+} input {
+    font-family:Georgia;
+    font-size:12px;
+    color:#000000;
+} .right {
+    display:inline;
+    float:right;
+}

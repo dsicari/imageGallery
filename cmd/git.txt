@@ -1,0 +1,67 @@
+#REBASE
+git pull origin master
+
+#ENVIAR
+git remote show origin
+git add .
+git commit -m "Fix carrousel, contato e login"
+git push origin
+
+
+
+
+Git - Ferramenta de versionamento.
+baixar em: git-scm.com
+
+Navegar at� projeto via terminal
+Inicializar um reposit�rio: 
+git init
+
+Visualizar arquivos dentro da pasta: (mac)
+ls -la
+
+Verificar status: 
+git status
+
+Adicionar todas as modifica��es: 
+git add .
+
+Na primeira vez voc� precisa configurar git antes de commits:
+git config --global user.name �Seu nome�
+git config --global user.email �Seu email� 
+
+Textualizar todas as altera��es que voc� fez:
+git commit -m �a mensagem detalhando o que voc� fez�
+
+Para subir no github
+ap�s criar reposit�rio
+copiar e colar c�digo fornecido pelo reposit�rio
+
+Para enviar as altera��es
+	git push --all
+
+Branchs - ramificar etapas do projeto
+
+Para criar um branch
+	git checkout -b �nome-do-branch�
+
+Para deletar um branch sem commits
+	git branch -d �nome-do-branch�
+
+Para deletar um branch com commits
+	git branch -D �nome-do-branch�
+
+Mover para outro branch
+	git checkout �master�
+
+Para mesclar altera��es
+	git merge �html�
+
+Para juntarmos todas as altera��es que fizemos na branch �design� com as altera��es do branch master
+git merge design -m "Mesclando com a branch design"
+	
+Para visualizar as altera��es
+	git log
+
+Para remover arquivos
+	git rm -r �arquivo.txt�

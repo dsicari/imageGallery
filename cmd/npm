@@ -1,0 +1,48 @@
+Instalar npm
+npm install npm@latest -g
+
+Instalar Gulp localmente
+npm install -g gulp
+
+iniciar o gulp
+	npm install --save-dev gulp
+
+Para visualizar apenas o plugin você instalou 
+	npm ls --depth=0
+
+Para ativar o gulp em nosso projeto teremos que criar um arquivo
+	gulpfile.js
+
+Para instalar plugin gulp-sass
+	npm install --save-dev gulp-ruby-sass
+npm install gulp-sass --save-dev
+
+Para instalar plugin gulp-watch 
+npm install gulp-watch --save-dev
+
+Para instalar bower
+	npm install -g bower
+
+Para instalar font-awesome
+	bower install font-awesome --save-dev
+
+Para instalar bootstrap-sass
+	bower install bootstrap-sass --save-dev
+
+Para instalar breakpoint-sass
+	bower install breakpoint-sass --save-dev
+
+Para instalar sass flexbox mixin
+	bower install sass-flex-mixin --save-dev
+
+Para instalar efeito hover
+	bower install imagehover.css --save-dev
+
+Para instalar wow para fazer animação
+	bower install wowjs --save-dev
+
+Ao iniciar um novo projeto, criar package.json. Isto tudo deve ser feito no diretorio do projeto
+	npm init	
+
+
+

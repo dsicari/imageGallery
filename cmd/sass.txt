@@ -1,0 +1,11 @@
+COMPILAR UM UNICO ARQUIVO
+node-sass --output ./ app.sass --watch
+
+COMPILAR UM DIRETORIO INTEIRO (SE O ARQUIVO FOR "PARTIAL" OU SEJA INICIAR COM _FILENAME, NAO SERA COMPILADO)
+node-sass --output ./css ./sass --watch
+
+
+node-sass --watch --recursive --output teste.css --source-map true --source-map-contents teste.sass
+
+
+ node-sass --watch --recursive --output ./ --source-map true --source-map-contents app.sass

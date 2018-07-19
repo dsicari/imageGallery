@@ -1,0 +1,5 @@
+Iniciar MAMP
+Navegar ate a pagina desejada
+Ligar live server plugin chrome/mozila, exemplo:
+    http://localhost/cepintando7/
+    http://127.0.0.1:5500/
